@@ -78,10 +78,12 @@ for (let i = 1; i <= a; i++) {
 
 let a = +prompt("Enter a number a");
 let sum = 0;
+let count = 0;
 
 for (let i = 1; i <= a; i++) {
     if (a % i == 0) {
         sum += i;
+        count = count+1;
     }
     console.log(sum);
 }
